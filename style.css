@@ -1,0 +1,172 @@
+.nobg {
+  border: none !important;
+  border-width: 0px !important;
+  background-color: transparent;
+}
+
+.mainhead {
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+
+}
+
+.item {
+  font-family: Doppio One;
+  padding: 10px;
+  display: inline;
+  border: 3px solid #D8D8D8;
+  border-radius: 18px;
+  letter-spacing: 1px;
+  background-color: #D8D8D8;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #182747;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.over {
+  overflow-x: scroll;
+  scrollbar-width: none;
+
+}
+
+.accordion {
+  border: none !important;
+  background-color: #DAE2B6 !important;
+}
+
+.accordion-body {
+  padding: 3px;
+  background-color: #F1EFDC;
+  border: 2px solid while;
+  border-radius: 20px;
+}
+
+
+@media screen and (max-width: 380px) {
+  .item {
+    font-size: 25px;
+    overflow-inline: visible;
+
+  }
+
+  .smallscreen {
+    font-size: 20px;
+    font-weight: 1px;
+  }
+}
+
+
+
+.viewmore {
+  display: inline !important;
+
+
+  color: red;
+}
+
+.accordion-button {
+  background-color: transparent !important;
+  color: black;
+}
+
+.sidehead {
+  font-family: Doppio One;
+  background-color: #DAE2B6;
+  border-left: 9px solid #002B5B;
+  border-radius: 0px 45px 45px 0px;
+  padding-top: 3px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 70px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 2px;
+
+
+}
+
+@media screen and (max-width: 480px) {
+  .sidehead {
+    font-size: medium;
+  }
+
+  .mobile-view{
+    font-size: 18px;
+  }
+}
+
+
+
+.bg-border {
+  border: none !important;
+}
+
+
+
+
+.carousel1 .carousel1-item {
+  height: 600px;
+  margin: 10px;
+}
+
+.carousel1-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+  .carousel1 .carousel1-item {
+    height: 500px;
+
+
+  }
+
+  
+
+}
+
+
+li {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 720px) {
+
+
+  .item {
+    font-size: 25px;
+    overflow-inline: visible;
+
+  }
+
+ 
+}
+
+.card{
+  background-color: transparent;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 2px;
+border-radius: 30px;
+
+
+}
+
+.splide__slide{
+
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#foot{
+  background-color: #F1DEC9;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 2px;
+  border-left: 5px solid #002B5B;
+  border-radius: 0px 20px 20px 0px;
+}
